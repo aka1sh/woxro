@@ -1,0 +1,136 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+body {
+  background-color: black;
+  color: white; /* Optionally set text color to white for better contrast */
+}
+/* .App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+/* .App {
+  display: flex;
+} */
+p {
+  text-align: center;
+  color: white; /* Example text color for the header */
+  padding: 20px; 
+}
+img {
+  width: 75%;
+  height: 25%;
+  margin-left: 95px;
+}
+#p2 {  
+  width: 75%;
+  height: 25%;
+  margin-left: 95px;
+  margin-top: 20px
+}
+#p1 {  
+  width: 75%;
+  height: 25%;
+  margin-left: 95px;
+  margin-top: 40px;
+  margin-bottom: 18px;
+}
+#b1 {
+  width: 208px;
+  height: 28px;
+  margin-top: 21px;
+}
+#b1 {
+  display: flex;
+  /* justify-content: space-between; */
+  /* margin: 10px; Adjust the margin to control the gap between images */
+}
+
+.image-row {
+  display: flex;
+  /* justify-content: space-between; */
+   margin: 10px;  
+}
+.button {
+  display: flex;
+  justify-content: center;
+   margin: 10px;  
+}
+
+#m1,
+#m2,
+#m3 {
+  max-width: 200px; /* Limit the maximum width of each image */
+  width: 100%; /* Make images fill the available space */
+  height: auto; /* Maintain aspect ratio */
+  margin-right :0px ;
+}
+#g1 {
+  margin-top : 75px;
+}
+
+#g2 {
+  margin-top : 60px;
+}
+#g3 {
+  margin-top : 130px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px; /* Adjust margin as needed */
+}
+.image-container {
+  flex: 0 0 30%; /* Equal width for each image */
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+.close-button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+  margin-left: 100%;
+
+}
+.cross {
+  font-size: 24px;
+  color: white; /* Changing the color to white */
+  cursor: pointer;
+}
+.close-button:hover .cross {
+  transform: rotate(45deg); /* Adjust the rotation angle as needed */
+}
+.image-description {
+  font-size: 14px;}
+  body {color: white;}
+
+
+@media (max-width: 768px) {
+  #p1,
+  #p2,
+  #b1 {
+    max-width: 100%; /* Allow images to take full width on smaller screens */
+  }
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
